@@ -123,3 +123,8 @@ nav {
     border-color:rgb(0, 54, 0);
     transition:ease-out 0.4s;
 }
+
+a{
+    text-decoration:none;
+    color:white
+}
