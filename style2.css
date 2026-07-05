@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    gap: 171px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(3, 162, 162);
+    border-radius: 10px;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    transition: background-color ease-out 0.3s;
+}
+
+.box:hover {
+    background-color: rgb(0, 84, 84);
+    transition: ease-in 0.3s;
+}
+
+.item {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    height:100vh;
+    
+}
+
+.item1 {
+    background-color:rgb(255, 245, 233);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.english{
+    font-family:"poppins";
+    font-size:20px;
+}
+
+.button ul {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    font-size:10px;
+    font-family: poppins;
+    transition: background-color ease-out 0.3s;
+
+}
+
+
+.button ul li {
+    display: flex;
+    border: 10px solid rgb(3, 162, 162);
+    width: 400px;
+    background-color: rgb(3, 162, 162);
+    border-radius:10px;
+    transition:background-color ease-out 0.4s, border-color ease-out 0.4s;
+
+}
+.button ul li:hover{
+    background-color: rgb(0, 84, 84);
+    border-color: rgb(0, 84, 84);
+    transition: ease-in 0.3s
+}
+
+.button ul li.bit {
+    background-color: green;
+    border:10px solid green;
+    
+}
+.button ul li.bit:hover{
+    background-color:rgb(0, 54, 0);
+    border-color:rgb(0, 54, 0);
+    transition:ease-out 0.4s;
+}
